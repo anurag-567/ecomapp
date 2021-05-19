@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentoptionActivity"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+
+        <Button
+            android:id="@+id/btncash"
+            android:layout_width="245dp"
+            android:layout_height="60dp"
+            android:text="Cash Payment"
+            android:textColor="#ffffff"
+            android:background="@drawable/forgetbutton"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnbankpayment"
+            android:layout_width="245dp"
+            android:layout_height="60dp"
+            android:text="Bank Payment"
+            android:background="@drawable/forgetbutton"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#ffffff"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

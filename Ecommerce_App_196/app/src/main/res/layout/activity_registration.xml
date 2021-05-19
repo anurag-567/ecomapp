@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:backgroundTint="#99000000"
+    android:backgroundTintMode="src_over"
+    android:paddingBottom="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    android:background="@drawable/back_all"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Name"
+            android:paddingLeft="10dp"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Email Id"
+
+
+            android:paddingLeft="10dp"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center"
+
+
+            />
+
+        <EditText
+            android:id="@+id/editcontact"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Contact Number"
+            android:paddingLeft="10dp"
+            android:inputType="phone"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center"
+
+            />
+        <EditText
+            android:id="@+id/editaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Address"
+            android:paddingLeft="10dp"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center"
+
+            />
+
+        <EditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/editrepassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+
+
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+
+            android:paddingLeft="10dp"
+            android:background="@drawable/editloginborder"
+            android:layout_gravity="center" />
+
+
+
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

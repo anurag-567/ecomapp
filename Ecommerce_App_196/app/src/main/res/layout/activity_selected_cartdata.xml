@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selected_cartdata"
+
+    android:paddingBottom="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    android:background="@drawable/back_all"
+    android:backgroundTint="#99000000"
+    android:backgroundTintMode="src_over"
+    >
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/productimage"
+                android:src="#84764c" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Product Name :"
+                android:textColor="@android:color/white"
+                android:id="@+id/lblproductname"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name"
+                android:textColor="@android:color/white"
+                android:id="@+id/textproductname"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cost :"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="110dp"
+                    android:id="@+id/lblprototalcost"
+                    android:textSize="25dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cost"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="160dp"
+                    android:id="@+id/prototalcost"
+                    android:textSize="25dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="QUANTITY :"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="110dp"
+                    android:id="@+id/lblquantity"
+                    android:textSize="25dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:hint="Quantity"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="160dp"
+                    android:id="@+id/textquantity"
+                    android:textSize="25dp"
+                    />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker1"
+                    android:layout_width="330dip"
+                    android:background="@android:color/white"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="40dp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:id="@+id/btnbuy"
+
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="DELETE"
+                android:id="@+id/btndelete"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

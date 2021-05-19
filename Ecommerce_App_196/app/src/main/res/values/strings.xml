@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Agro App</string>
+    <string name="amount">Rs: </string>
+</resources>
